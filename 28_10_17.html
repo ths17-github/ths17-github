@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		div{width: 200px;
+			height: 100px;
+			background-color: blue;
+			transition: transform 2s linear;
+			/*transform: translateX(20px);
+			//transform: scale(3);
+			//transform: rotateX(50deg);
+		//transform: skew(60deg);*/
+		animation:change_color 2s linear infinite;
+		border-radius: 100%;}
+	/*div:hover{ transform: translateX(500px); }*/
+	@keyframes change_color{
+		10%{background-color: blue;}
+			25%{background-color: red;}
+			50%{background-color: pink;}
+			75%{background-color: yellow;}
+			100%{background-color: green;}
+	}
+	</style>
+</head>
+<body>
+	<div></div>
+</body>
+</html>
